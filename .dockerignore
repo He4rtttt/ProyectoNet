@@ -1,0 +1,20 @@
+﻿# Carpetas comunes de .NET
+**/bin/
+**/obj/
+
+# Configuración de IDEs
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Git
+.git/
+.gitignore
+
+# Publicaciones anteriores
+publish/
