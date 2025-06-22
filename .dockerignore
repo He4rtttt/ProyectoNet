@@ -1,20 +1,31 @@
-﻿# Carpetas comunes de .NET
+﻿# Archivos y carpetas generadas automáticamente
 **/bin/
 **/obj/
+**/packages/
 
-# Configuración de IDEs
-.idea/
-.vscode/
+# Archivos de configuración local
 *.user
 *.suo
+*.userprefs
+*.csproj.user
+*.DotSettings.user
 
-# Archivos temporales
-*.log
-*.tmp
+# Configuración de Rider/VSCode
+.idea/
+.vscode/
+
+# Archivos del sistema operativo
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de publicación
+publish/
+*.zip
 
 # Git
-.git/
+.git
 .gitignore
-
-# Publicaciones anteriores
-publish/
