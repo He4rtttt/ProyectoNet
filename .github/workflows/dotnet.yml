@@ -3,7 +3,7 @@ name: Build and Deploy .NET Application
 on:
   push:
     branches:
-      - main  # Ejecutar solo cuando se suben cambios a main
+      - master  
 
 jobs:
   build:
